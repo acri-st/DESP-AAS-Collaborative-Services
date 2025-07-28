@@ -9,7 +9,7 @@ Collaborative platform allows users to create or reference different assets in a
 ## ⚙️ Technical description
 The Microservices that make up the Collaborative platform project are the following: 
 - **Authentication** (to be provided by each contributor)
-- **Collaborative UI** [🔗Repository](https://github.com/acri-st/collaborative-ui)
+- **Collaborative UI** [📄Description](https://github.com/acri-st/DESP-AAS-Collaborative-Services/tree/main?tab=readme-ov-file#-what-is-the-collaborative-ui) [🔗Repository](https://github.com/acri-st/collaborative-ui)
 - **Asset management** [🔗Repository](https://github.com/acri-st/asset-management)
 - **Recommendation** [🔗Repository](https://github.com/acri-st/recommendation)
 - **Search** [🔗Repository](https://github.com/acri-st/search)
