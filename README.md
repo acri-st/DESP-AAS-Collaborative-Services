@@ -1,12 +1,34 @@
-# DESP-AAS-Collaborative-Services
+# DESP-AAS Collaborative Services
 
 This project contains multiple microservices designed to simulate our production environment.
+
+## Table of Contents
+- [🧪 What is the Collaborative Services?](https://github.com/acri-st/DESP-AAS-Collaborative-Services#-what-is-the-collaborative-services)
+- [⚙️ Technical description](https://github.com/acri-st/DESP-AAS-Collaborative-Services#%EF%B8%8F-technical-description)
+  - [🗺️ Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
+  - [📄 Microservices description](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#-microservices-description)
+    - [📦 Collaborative UI](https://github.com/acri-st/DESP-AAS-Collaborative-Services/tree/main?tab=readme-ov-file#-what-is-the-collaborative-ui)
+    - [📦 Asset Management](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-asset-management)
+    - [📦 Recommendation](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-recommendation)
+    - [📦 Search](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-search)
+    - [📦 Discussion](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-discussion)
+    - [📦 Geo Extractor](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-geo-extractor)
+    - [📦 Post](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-post)
+    - [📦 Notification](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-notification)
+    - [📦 Moderation](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-moderation)
+    - [📦 Auto Moderation](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-auto-moderation)
+    - [📦 Moderation Handling](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-moderation-handling)
+    - [📦 Storage](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-storage)
+    - [📦 UI Framework](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-ui-framework)
+    - [📦 Admin UI](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-admin-ui)
+- [🧰 Setup](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#-setup)
 
 ## 🧪 What is the Collaborative Services?
 
 Collaborative platform allows users to create or reference different assets in a comprehensive catalog in earth obervation and geospatial analysis.
 
 ## ⚙️ Technical description
+### 🗺️ Architecture
 The Microservices that make up the Collaborative platform project are the following: 
 - **Authentication** (to be provided by each contributor)
 - **Collaborative UI** [📄Description](https://github.com/acri-st/DESP-AAS-Collaborative-Services/tree/main?tab=readme-ov-file#-what-is-the-collaborative-ui) [🔗Repository](https://github.com/acri-st/collaborative-ui)
@@ -28,13 +50,13 @@ The Microservices that make up the Collaborative platform project are the follow
 
 ### 📄 Microservices description
 
-#### 📦 What is the Collaborative UI?
+#### 📦 What is the Collaborative UI? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Collaborative UI is a web application that interfaces with the microservices that comprise the ecosystem. It provides users a comprehensible experience to find and use different services of the platform, and has collaboration at its heart.
 
 The Collaborative UI also uses a common library and framework that contains interfaces to services and styling called the desp-ui-fwk.  
 
-#### 📦 What is the Asset Management?
+#### 📦 What is the Asset Management? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Asset Management service is a microservice that handles the lifecycle of data assets. It provides the infrastructure and tools necessary for users to create, update, retrieve, moderate, and publish assets such as datasets, models, applications, and more.
 
@@ -45,7 +67,7 @@ The Asset Management service handles:
 - **User Interactions** Supporting likes, bookmarks, and asset views
 - **Integration** Working with other microservices like Storage, Search, and Auth  
 
-#### 📦 What is the Recommendation?
+#### 📦 What is the Recommendation? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Recommendation microservice is a specialized service designed to provide intelligent recommendations to users based on various data inputs and algorithms.
 
@@ -62,7 +84,7 @@ The Recommendation microservice is a specialized service designed to provide int
 - Service recommendations for various platforms
 - User matching and connection suggestions  
 
-#### 📦 What is the Search?
+#### 📦 What is the Search? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Search microservice is a specialized service designed to provide advanced search capabilities for assets within the platform. It leverages Elasticsearch to deliver fast, scalable, and intelligent search functionality.
 
@@ -84,7 +106,7 @@ The Search microservice is a specialized service designed to provide advanced se
 - Support for complex geographic queries
 - Subscription-based access control  
 
-#### 📦 What is the Discussion?
+#### 📦 What is the Discussion? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Discussion service is a microservice that enables communication around assets and posts. It provides the infrastructure and tools necessary for users to create, manage, and participate in discussions, topics, and posts related to assets.
 
@@ -94,7 +116,7 @@ The Discussion service handles:
 - **Moderation Integration** Sending posts and topics for moderation
 - **Integration** Working with other  microservices like Asset Management, Auth, and Notification  
 
-#### 📦 What is the Geo extractor?
+#### 📦 What is the Geo extractor? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Asset Geo Extractor is a microservice designed to extract and process geographical data from various asset sources. It provides functionality to:
 
@@ -106,7 +128,7 @@ The Asset Geo Extractor is a microservice designed to extract and process geogra
 
 This microservice is part of a larger system architecture and works in conjunction with other services like the Search microservice to interact with elasticsearch, and an asset manager to provide comprehensive asset management capabilities.  
 
-#### 📦 What is the Post?
+#### 📦 What is the Post? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Post service is a microservice that enables communication around assets and posts. It provides the infrastructure and tools necessary for users to create, manage, and participate in discussions, topics, and posts related to assets.
 
@@ -116,7 +138,7 @@ The Post service handles:
 - **Moderation Integration** Sending posts and topics for moderation
 - **Integration** Working with other  microservices like Asset Management, Auth, and Notification  
 
-#### 📦 What is the Notification?
+#### 📦 What is the Notification? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Notification microservice is a dedicated service responsible for handling all notification-related operations within the system. It provides a centralized solution for sending various types of notifications including emails, SMS, and push notifications.
 
@@ -129,7 +151,7 @@ The Notification microservice is a dedicated service responsible for handling al
 
 The microservice operates independently, ensuring that notification failures don't impact other system components while providing reliable delivery mechanisms for critical communications.  
 
-#### 📦 What is the Moderation?
+#### 📦 What is the Moderation? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Moderation microservice handles content moderation and validation. It provides manual review capabilities to ensure content quality, compliance, and safety across the platform.
 
@@ -142,7 +164,7 @@ The Moderation microservice handles content moderation and validation. It provid
 - Ensuring data quality and consistency
 - Supporting community guidelines enforcement  
 
-#### 📦 What is the Auto Moderation?
+#### 📦 What is the Auto Moderation? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The AutoModeration microservice is a component designed to automatically analyze and moderate content. It provides content filtering capabilities to ensure compliance with organizational policies and standards.
 
@@ -158,7 +180,7 @@ The AutoModeration microservice is a component designed to automatically analyze
 - Compliance monitoring
 - Quality assurance automation  
 
-#### 📦 What is the Moderation Handling?
+#### 📦 What is the Moderation Handling? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Moderation-handling microservice is responsible for redirecting moderation events in real-time, providing moderation management tools for distributed systems.
 
@@ -171,7 +193,7 @@ The Moderation-handling microservice is responsible for redirecting moderation e
 - Real-time event monitoring and alerting
 - Policy enforcement across distributed systems  
 
-#### 📦 What is the Storage?
+#### 📦 What is the Storage? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The Storage service is a microservice that handles file storage and repository management. It provides the infrastructure and tools necessary for users to store, manage, and access files, Git repositories, and metadata associated with their projects.
 
@@ -183,11 +205,11 @@ The Storage Management service handles:
 - **Content Delivery** Streaming file content and serving static assets
 - **Integration** Working with other microservices like Asset Management and Auth
 
-#### 📦 What is the UI framework?
+#### 📦 What is the UI framework? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The UI framework is the library that is used in collaborative-ui, sandbox-ui and admin-ui for utilities, React components, API interfaces, typings and more.  
 
-#### 📦 What is the Admin UI?
+#### 📦 What is the Admin UI? [Back to Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/edit/main/README.md#%EF%B8%8F-architecture)
 
 The admin UI is a web application that interfaces with the microservices that comprise the collaborative platform and the sandbox for administrators to manipulate and moderate.  
 
