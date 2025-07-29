@@ -3,7 +3,7 @@
 This project contains multiple microservices designed to simulate our production environment.
 
 ## Table of Contents
-- [🧪 What is the Collaborative Services?](https://github.com/acri-st/DESP-AAS-Collaborative-Services#-what-is-the-collaborative-services)
+- [🧭 What is the Collaborative Services?](https://github.com/acri-st/DESP-AAS-Collaborative-Services#-what-is-the-collaborative-services)
 - [⚙️ Technical description](https://github.com/acri-st/DESP-AAS-Collaborative-Services#%EF%B8%8F-technical-description)
   - [🗺️ Architecture](https://github.com/acri-st/DESP-AAS-Collaborative-Services/tree/main#%EF%B8%8F-architecture)
   - [📄 Microservices description](https://github.com/acri-st/DESP-AAS-Collaborative-Services/tree/main#-microservices-description)
@@ -23,9 +23,14 @@ This project contains multiple microservices designed to simulate our production
     - [📦 Admin UI](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/README.md#-what-is-the-admin-ui-back-to-architecture)
 - [🧰 Setup](https://github.com/acri-st/DESP-AAS-Collaborative-Services/tree/main#-setup)
 
-## 🧪 What is the Collaborative Services?
+## 🧭 What is the Collaborative Services?
 
-Collaborative platform allows users to create or reference different assets in a comprehensive catalog in earth obervation and geospatial analysis.
+Welcome to the Collaborative Services project — a powerful platform designed to streamline teamwork, data sharing, and service integration in complex environments. Whether you're building applications, sharing geospatial datasets, or coordinating with multiple stakeholders, this platform provides a unified workspace to manage assets, access computing resources, and collaborate in real time.
+
+![Collaborative Home Page](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/Collab_home.JPG?raw=true)
+With a focus on interoperability, user experience, and scalability, the Collaborative Services environment enables users to explore a rich catalog of datasets, models, tools, and documentation — all in one place.
+
+![Collaborative Catalogue Page](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/fc885201141f5becc04b75d326dce4762b61d854/Collab_catalogue.JPG?raw=true)
 
 ## ⚙️ Technical description
 ### 🗺️ Architecture
