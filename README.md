@@ -1,6 +1,6 @@
-# DESP-AAS Collaborative Services
+![Collaborative Banner](https://github.com/acri-st/DESP-AAS-Collaborative-Services/blob/main/Collab_banner.png?raw=true)  
 
-This project contains multiple microservices designed to simulate our production environment.
+# DESP-AAS Collaborative Services
 
 ## Table of Contents
 - [🧭 What is the Collaborative Services?](https://github.com/acri-st/DESP-AAS-Collaborative-Services#-what-is-the-collaborative-services)
